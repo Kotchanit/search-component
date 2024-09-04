@@ -1,0 +1,7 @@
+.App {
+  @apply bg-slate-300 h-screen w-screen
+}
+
+.search-bar-container {
+  @apply pt-20v m-auto flex flex-col items-center min-w-56
+}

@@ -1,0 +1,6 @@
+<div class="App">
+  <div class="search-bar-container">
+    <search-bar (setResults)="handleSetResults($event)" />
+    <search-results-list [projectList]="projectList" [searchKey]="searchKey"></search-results-list>
+  </div>
+</div>

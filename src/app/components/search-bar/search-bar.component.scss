@@ -1,0 +1,11 @@
+.input-wrapper {
+  @apply bg-white w-96 flex rounded-lg h-10 border-none px-4 py-0 shadow-sm items-center
+}
+
+input {
+  @apply bg-transparent border-none h-full w-full ml-3 text-base
+}
+
+input:focus {
+  @apply outline-none
+}

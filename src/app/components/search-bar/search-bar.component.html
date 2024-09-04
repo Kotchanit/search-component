@@ -1,0 +1,7 @@
+<div class="input-wrapper">
+  <fa-icon [icon]="faSearch"></fa-icon>
+  <form [formGroup]="form">
+    <input list="id-car" type="text" placeholder="Search projects" formControlName="search">
+  </form>
+  <fa-icon class="ml-auto animate-spin" [hidden]="!isSearching" [icon]="faSpinner"></fa-icon>
+</div>
